@@ -15,10 +15,10 @@ const headerNav = [
         display: 'Movies',
         path: '/movie'
     },
-    {
-        display: 'TV Series',
-        path: '/tv'
-    }
+    // {
+    //     display: 'TV Series',
+    //     path: '/tv'
+    // }
 ];
 
 const Header = () => {
@@ -47,7 +47,7 @@ const Header = () => {
             <div className="header__wrap container">
                 <div className="logo">
                     <img src={logo} alt="" />
-                    <Link to="/">MovieHub</Link>
+                    <Link to="/">Movie Explorer</Link>
                 </div>
                 <ul className="header__nav">
                     {
